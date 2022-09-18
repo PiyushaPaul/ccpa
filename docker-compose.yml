@@ -1,0 +1,19 @@
+version: "3"
+services:
+  ccbpa:
+    image: ccbpa:1
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql-ccpa
+ 
+  mysql-ccpa:
+    image: mysql:8
+    environment:
+      - MYSQL_ROOT_PASSWORD=Jathartha@22
+      - MYSQL_DATABASE=ccpadb
+      
+      
+   
+    
+

@@ -1,2 +1,1 @@
-# ccpa
-for sprint
+# CreditCardPaymentApplication
